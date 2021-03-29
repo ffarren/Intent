@@ -30,7 +30,7 @@ class Activity2 : AppCompatActivity() {
         tvnama.setText(nama)
         tvumur.setText(umur)
 
-
+        //udah update brobro
         btn_activity2.setOnClickListener{
             val intent = Intent(this@Activity2, MainActivity::class.java)
             startActivity(intent)

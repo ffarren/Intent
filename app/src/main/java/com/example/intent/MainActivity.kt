@@ -30,9 +30,11 @@ class MainActivity : AppCompatActivity() {
             tvnama.setText(etnama.text)
         }
 
+        //udah update brobro
 
         btn_activity1.setOnClickListener{
             val intent = Intent(this@MainActivity, Activity2::class.java)
+            //udah update brobro
             intent.putExtra("NAMA", tvnama.text.toString())
             intent.putExtra("AGE", tvumur.text.toString())
             startActivity(intent)

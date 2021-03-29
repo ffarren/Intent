@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-
+//gagal terus anjim
 class MainActivity : AppCompatActivity() {
 
     private lateinit var etnama: EditText

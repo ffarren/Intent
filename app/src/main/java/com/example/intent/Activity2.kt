@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 
-
+//gagal terus anjim
 class Activity2 : AppCompatActivity() {
 
     private lateinit var tvnama : TextView

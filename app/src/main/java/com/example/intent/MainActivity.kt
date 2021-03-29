@@ -33,8 +33,8 @@ class MainActivity : AppCompatActivity() {
 
         btn_activity1.setOnClickListener{
             val intent = Intent(this@MainActivity, Activity2::class.java)
-            intent.putExtra("NAMA", tvnama.text)
-            intent.putExtra("AGE", tvumur.text)
+            intent.putExtra("NAMA", tvnama.text.toString())
+            intent.putExtra("AGE", tvumur.text.toString())
             startActivity(intent)
         }
     }
